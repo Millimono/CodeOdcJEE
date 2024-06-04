@@ -11,6 +11,19 @@ package com.mycompany.projet1.Tests;
 public class CompteBancaire 
 {
     private String titulaire;
+
+    public void setTitulaire(String titulaire) {
+        this.titulaire = titulaire;
+    }
+
+    public String getTitulaire() {
+        return titulaire;
+    }
+
+    @Override
+    public String toString() {
+        return "CompteBancaire{" + "titulaire=" + titulaire + ", solde=" + solde + '}';
+    }
     private double solde;
     
     public CompteBancaire(String titulaire)

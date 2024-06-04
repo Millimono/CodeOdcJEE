@@ -4,8 +4,11 @@
 
 package com.mycompany.projet1;
 
+import com.mycompany.projet1.Tests.Chat;
 import com.mycompany.projet1.Tests.CompteBancaire;
 import com.mycompany.projet1.Tests.Voiture;
+import com.mycompany.projet1.Tests.Chien;
+import com.mycompany.projet1.Tests.Mathematique;
 
 /**
  *
@@ -29,12 +32,32 @@ public class Projet1 {
         v1.Acceler(120.0);
         v1.TableauDeBord();*/
         
-        CompteBancaire cb2 = new CompteBancaire("sory millimono");
+        /*CompteBancaire cb2 = new CompteBancaire("sory millimono");
+        
+        System.out.println(cb2.toString());
         
         cb2.AfficherSolde();
-         cb2.deposer(100000);
-           cb2.retirer(20000000);
-       
+        cb2.deposer(100000);
+        cb2.retirer(20000000);
+        System.out.println("Titulaire Actuel : "+cb2.getTitulaire());
+        cb2.setTitulaire("sory 2 ");
+        System.out.println("Titulaire Actuel : "+cb2.getTitulaire());
+
+        System.out.println(cb2.toString());*/
+       /* Chien monChien = new Chien();
+        monChien.respirer();  // Hérité de la classe Animal
+        monChien.aboyer();   // Défini dans la classe Chien
+
+        Chat monChat = new Chat();
+        monChat.respirer();  // Hérité de la classe Animal
+        monChat.Miaule();*/
+        
+        Mathematique calcul = new Mathematique();
+        
+        System.out.println(calcul.multiplier(12, 5));
+        System.out.println(calcul.multiplier(12.6, 5));
+
+
 
 
     }
