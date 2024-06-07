@@ -10,7 +10,7 @@ package com.mycompany.projet1.Tests;
  */
 public class Chien extends Animal 
 {
-    public void aboyer() {
+    public void FaireSon() {
         System.out.println("Le chien aboie.");
     }
     

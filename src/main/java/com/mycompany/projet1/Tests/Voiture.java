@@ -28,6 +28,10 @@ public class Voiture {
         System.out.println("Marque: " + marque + ", Modèle: " + modele + ", Année: " + annee);
     }
     
+    public String afficherDetail() {
+        return "Marque: " + marque + ", Modèle: " + modele + ", Année: " + annee;
+    }
+    
     public void Demarer()
     {
         this.vitesse=10;        

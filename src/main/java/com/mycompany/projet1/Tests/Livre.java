@@ -8,11 +8,17 @@ package com.mycompany.projet1.Tests;
  *
  * @author Lenovo
  */
-public class Chat extends Animal 
+public class Livre 
 {
-     public void FaireSon() {
-        System.out.println("Cet chat miaule.");
-    }
-    
+    String numLivre;
 
+    public String getNumLivre() {
+        return numLivre;
+    }
+
+    public void setNumLivre(String numLivre) {
+        this.numLivre = numLivre;
+    }
+
+    
 }

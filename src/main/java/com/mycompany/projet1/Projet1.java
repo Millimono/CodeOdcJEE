@@ -44,18 +44,20 @@ public class Projet1 {
         System.out.println("Titulaire Actuel : "+cb2.getTitulaire());
 
         System.out.println(cb2.toString());*/
-       /* Chien monChien = new Chien();
+        Chien monChien = new Chien();
         monChien.respirer();  // Hérité de la classe Animal
-        monChien.aboyer();   // Défini dans la classe Chien
+        monChien.FaireSon();   // Défini dans la classe Chien
 
         Chat monChat = new Chat();
         monChat.respirer();  // Hérité de la classe Animal
-        monChat.Miaule();*/
+        monChat.FaireSon();
         
-        Mathematique calcul = new Mathematique();
+        /*Mathematique calcul = new Mathematique();
         
         System.out.println(calcul.multiplier(12, 5));
-        System.out.println(calcul.multiplier(12.6, 5));
+        System.out.println(calcul.multiplier(12.6, 5));*/
+        
+        
 
 
 
